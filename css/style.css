@@ -2,9 +2,10 @@
   max-width: 935px;
   margin: 0 auto;
   padding: 0 20px;
-  border: 1px solid lightgray; }
+  border: 1px solid lightgray;
+  font-family: 'Montserrat', sans-serif; }
 
-h1 {
+.header__title {
   text-align: center;
   font-family: 'Lexend Mega', sans-serif; }
 
@@ -14,6 +15,42 @@ h1 {
   grid-column-gap: 20px;
   grid-row-gap: 20px; }
 
+.grid__cell_container {
+  position: relative; }
+
 .grid__cell {
   height: 300px;
   border: 1px solid red; }
+
+.grid__cell_hover {
+  filter: blur(3px); }
+
+.grid__cell_info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background-color: red; }
+
+#fullPhoto__container {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 1, 0.5);
+  top: 0;
+  left: 0; }
+
+#fullPhoto {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+#fullPhoto__closeButton {
+  display: none;
+  position: absolute;
+  top: 5%;
+  right: 5%; }

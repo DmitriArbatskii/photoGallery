@@ -2,31 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Photo gallery</title>
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <div class="container">
-    <header class="header">
-      <h1 class="header__title"> photo gallery</h1>
-      <div class="header__nav">Альбом:
-        <select class="header__select-album" id="select">
-          <option value="all">all</option>
-        </select>
-      </div>
-    </header>
+    <h1>photo gallery</h1>
+    <div>Альбом:
+      <select id="select">
+        <option value="all">all</option>
+      </select>
+    </div>
     <div class="grid" id="grid">
     </div>
-    <div class="fullPhoto__container" id="fullPhoto__container">
-      <img class="fullPhoto" id="fullPhoto" alt="" src="">
-      <button class="fullPhoto_closeButton" id="fullPhoto_closeButton">x</button>
-    </div>
   </div>
-  <script src="./scripts/getAPI.js"></script>
-  <script src="./scripts/fullPhoto.js"></script>
-<!--  <script src="./scripts/photoInfo.js"></script>-->
+  <script src="script.js"></script>
 </body>
 </html>

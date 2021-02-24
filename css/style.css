@@ -34,8 +34,8 @@
   background-color: red; }
 
 #fullPhoto__container {
-  display: none;
-  position: absolute;
+  /*display: none;*/
+  position: fixed;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 1, 0.5);
@@ -43,14 +43,14 @@
   left: 0; }
 
 #fullPhoto {
-  display: none;
-  position: absolute;
+  /*display: none;*/
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%); }
 
 #fullPhoto__closeButton {
-  display: none;
-  position: absolute;
+  /*display: none;*/
+  position: fixed;
   top: 5%;
   right: 5%; }
